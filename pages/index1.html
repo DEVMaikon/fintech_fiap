@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    
+    <div class="box bg-light text-dark" >
+        <h2>Preencha seus Dados</h2>
+
+        <img src="../images/pexels-anna-nekrashevich-6802042.jpg" alt="mao com celular ">
+
+        <form id="dados" name="dados"  action="" method="post" class="form" >
+
+            <div class="box-form-item">
+                <label for="nome">Nome</label>
+                <i class="fa-regular fa-user icon"></i>
+                <input type="text" id="nome" name="nome" value="nome" placeholder="ex: Fulano" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="sobrenome">Sobrenome</label>
+                <i class="fa-solid fa-user-tag icon"></i>
+                <input type="text" id="sobrenome" name="sobrenome" value="sobrenome" placeholder="ex: dos santos " required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="rg">Rg</label>
+                <i class="fa-solid fa-user-tag icon"></i>
+                <input type="text" id="rg" name="rg" value="rg" placeholder="ex: dos santos " required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="cpf / cnpj">Cpf/Cnpj</label>
+                <i class="fa-solid fa-user-tag icon"></i>
+                <input type="text" id="cpf / cnpj" name="cpf / cnpj" value="cpf / cnpj" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="user">Usuário</label>
+                <i class="fa-solid fa-user-secret icon"></i>
+                <input type="text" id="user" name="user" value="user" placeholder="ex: fulano1234" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="senha">Senha</label>
+                <i class="fa-solid fa-key icon"></i>
+                <input type="password" id="senha" name="senha" value="senha" placeholder="ex: 12@mi45!" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="email">Email</label>
+                <i class="fa-regular fa-envelope icon"></i>
+                <input type="email" id="email" name="email" value="email" placeholder="ex: fulano1234@gmail.com" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="data">Data de Nascimento</label>
+                <i class="fa-solid fa-cake-candles icon"></i>
+                <input type="date" id="data" name="data" value="data" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="radio">Tipo de Conta</label>
+                <div class="box-from-radio">
+                    <input type="radio" name="radio" id="conta1">
+                    <label for="conta1">Física</label>
+                </div>
+
+                <div class="box-from-radio">
+                    <input type="radio" name="radio" id="conta2">
+                    <label for="conta2">Jurídica</label>
+                </div>
+
+                <div class="box-form-item">
+                    <input type = "checkbox" id = "Politica" name = "politica" value = "politica de privacidade" required>
+                    <label for = "Politica"><a href="../pages/index2.html"><strong>Politica de Privacidade.</strong></a></label>
+                </div>
+                
+                
+                </div>
+
+            <div class="box-form-button">
+                <button type="submit" class="btn btn-primary border border-1 text-dark link-offset-2-hover">Criar conta</button>
+            </div>
+
+        </form>
+
+    </div>
+    
+
+
+
+    <a href="/index.html" class="text-uppercase bg-primary-subtle border border-1 text-dark link-opacity-2-hover">Retornar para o Inicio-></a>
+
+    
+
+    
+</body>
+</html>

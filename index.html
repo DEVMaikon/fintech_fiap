@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body background="img">
+   
+<div class="container-fluid bg-light p-3" >
+    
+    <div class="text-center text-dark" >
+        <h1>Bem Vindo ao Your Bank</h1>
+        <h2>Seu Banco Internacional confiável, ágil e cheio de facilidades</h2>
+        <p class="text-black">Nosso trabalho é estreitar as finanças internacionais em um breve espaço de tempo</p>
+        <p class="text-black">Faca parte da mudança, seja pratico!</p>
+        
+        <div>
+                        <select name="acesso" id="acesso" required>
+                            <option value="0" disabled selected >Selecione a sua Conta</option>
+                            <option value="1">Pessoa Física</option>
+                            <option value="2">Pessoa Jurídica</option>
+                        </select>
+
+                      
+        </div>
+
+        <form id="dados" name="dados"  action="" method="post" class="form"  >
+
+           <div class="box-form-item  ">
+                <label for="user">Usuário</label>
+                <input class="border border-1" type="text" id="user" name="user" value="user" placeholder="ex: fulano1234" required>
+            </div>
+
+            <div class="box-form-item">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" value="senha" placeholder="ex: 12@mi45!" required>
+            </div>
+
+            <div class="box-form-button justify-content-between link-offset-2-hover">
+                <button type="submit" id="senha"><a href="./index.html" class= "btn btn-primary text-dark link-offset-2-hover">Login</a></button>
+            </div>
+
+
+           
+    </div>
+            <p class="text-black">Nao tem Cadastro, clique aqui e faca parte da revolução !</p>  
+            <div class="box-form-button justify-content-md-between link-offset-2-hover">
+                <button type="submit"><a href="./pages/index1.html " class= "btn btn-primary text-dark link-offset-2-hover">Cadastrar</a></button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <img src="./images/pexels-anna-nekrashevich-6801872.jpg"  alt="pessoa com celular na mao">
+
+     <footer class="text-center p-5">
+        Todos os Direitos Reservados
+    </footer>
+
+
+</div>
+
+
+    
+    
+    
+    <script src="./js/bootstrap.bundle.js">javascript</script>
+</body>
+</html>

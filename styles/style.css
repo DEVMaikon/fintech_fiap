@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color:aliceblue
+}
+
+
+img {
+    width: 100%;
+    background-image: url(../images/pexels-anna-nekrashevich-6801872.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.box {
+    width: 100%;
+    height: 80%;
+    color: var(--color-blue);
+    margin-bottom: var(--margin-base)
+}
+
+.box h2 {
+    font-size: 6vmin;
+    margin: var(--margin-base) 0;
+}
+
+.box p {
+    width: 90%;
+    font-size: 3vmin;
+    margin: var(--margin-base) 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.box-form-item {
+    padding: 0 10px;
+    height: 90px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-form-item label {
+    font-size: 18px;
+}
+
+input, select {
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+select {
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px;
+
+
+}
+
+.icon {
+    position: relative;
+    top: 28px;
+    left: 15px;
+}
+
+input:focus,
+select:focus {
+    outline-color: #20046e;
+}
+
+.box-form-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.radio {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.box-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--margin-base);
+    
+}
+
+.box-form-button button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--color-blue);
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    border: 0;
+}
+
+.arrow {
+    color: #6c98e5;
+    margin-left: 5px;
+}
+
+label:not(.radio label, .select) {
+    margin-bottom: 8px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+checkbox{
+    width: 10%;
+    height: 10px;
+    
+}
